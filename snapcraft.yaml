@@ -1,0 +1,19 @@
+name: niryo-sequence
+version: "0.1"
+summary: Programs a sequence in Niryo one robotic arm
+description: |
+  Programs a sequence in Niryo one robotic arm
+grade: stable
+base: core
+confinement: strict
+
+plugs:
+  robot-data:
+    interface: content
+    content: sequences
+    target: $SNAP_DATA/niryo_snap
+
+parts:
+  dump:
+    plugin: dump
+    source: dump

@@ -1,0 +1,135 @@
+---ID---
+1
+---NAME---
+get-move-30deg
+---CREATED---
+1567775097
+---UPDATED---
+1567775097
+---DESCRIPTION---
+
+---END_OF_DESCRIPTION---
+---BLOCKLY_XML---
+<?xml version="1.0"?>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="niryo_one_change_tool" id="1" x="0" y="0">
+    <value name="NEW_TOOL_ID">
+      <block type="niryo_one_tool_select" id="2">
+        <field name="TOOL_SELECT">TOOL_GRIPPER_2_ID</field>
+      </block>
+    </value>
+    <next>
+      <block type="niryo_one_open_gripper" id="3">
+        <field name="OPEN_SPEED">250</field>
+        <value name="OPEN_GRIPPER_ID">
+          <block type="niryo_one_tool_select" id="IUN8Ys_LQajlaC#].][*">
+            <field name="TOOL_SELECT">TOOL_GRIPPER_2_ID</field>
+          </block>
+        </value>
+        <next>
+          <block type="niryo_one_move_joints" id="Wx5}j-vY%;!wLtOpKQ6(">
+            <field name="JOINTS_1">0</field>
+            <field name="JOINTS_2">-0.001</field>
+            <field name="JOINTS_3">-1.345</field>
+            <field name="JOINTS_4">0.018000000000000002</field>
+            <field name="JOINTS_5">0.005</field>
+            <field name="JOINTS_6">-0.015</field>
+            <next>
+              <block type="niryo_one_move_joints" id="Y{X^~]qscL6gVw_DpHj$">
+                <field name="JOINTS_1">-0.057</field>
+                <field name="JOINTS_2">-0.431</field>
+                <field name="JOINTS_3">-0.717</field>
+                <field name="JOINTS_4">0.009000000000000001</field>
+                <field name="JOINTS_5">1.209</field>
+                <field name="JOINTS_6">-0.076</field>
+                <next>
+                  <block type="niryo_one_move_joints" id="c]csPg{`)gXwHIc7:{s#">
+                    <field name="JOINTS_1">-0.067</field>
+                    <field name="JOINTS_2">-1.118</field>
+                    <field name="JOINTS_3">-0.386</field>
+                    <field name="JOINTS_4">-0.037</field>
+                    <field name="JOINTS_5">1.493</field>
+                    <field name="JOINTS_6">-0.02</field>
+                    <next>
+                      <block type="niryo_one_close_gripper" id="Hb1EO0@lfP.W=UPV44-^">
+                        <field name="CLOSE_SPEED">250</field>
+                        <value name="CLOSE_GRIPPER_ID">
+                          <block type="niryo_one_tool_select" id="DZ%(tXHY_E?_%Z(fxAXz">
+                            <field name="TOOL_SELECT">TOOL_GRIPPER_2_ID</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="niryo_one_move_joints" id="^xtqc$}s|$us:to7/W3(">
+                            <field name="JOINTS_1">-0.057</field>
+                            <field name="JOINTS_2">-0.431</field>
+                            <field name="JOINTS_3">-0.717</field>
+                            <field name="JOINTS_4">0.009000000000000001</field>
+                            <field name="JOINTS_5">1.209</field>
+                            <field name="JOINTS_6">-0.076</field>
+                            <next>
+                              <block type="niryo_one_move_joints" id="t^gYW:DLZe(EY]**+,:B">
+                                <field name="JOINTS_1">1.57</field>
+                                <field name="JOINTS_2">-0.431</field>
+                                <field name="JOINTS_3">-0.717</field>
+                                <field name="JOINTS_4">0.009000000000000001</field>
+                                <field name="JOINTS_5">1.209</field>
+                                <field name="JOINTS_6">-0.076</field>
+                                <next>
+                                  <block type="niryo_one_move_joints" id="2?I0r!=~yYMN]0P]8H^8">
+                                    <field name="JOINTS_1">1.57</field>
+                                    <field name="JOINTS_2">-1.118</field>
+                                    <field name="JOINTS_3">-0.386</field>
+                                    <field name="JOINTS_4">-0.037</field>
+                                    <field name="JOINTS_5">1.493</field>
+                                    <field name="JOINTS_6">-0.02</field>
+                                    <next>
+                                      <block type="niryo_one_open_gripper" id="?aY(P-Qs9xPo(U5sWoHD">
+                                        <field name="OPEN_SPEED">250</field>
+                                        <value name="OPEN_GRIPPER_ID">
+                                          <block type="niryo_one_tool_select" id="7!)1fwODbh4ER28nLC)I">
+                                            <field name="TOOL_SELECT">TOOL_GRIPPER_2_ID</field>
+                                          </block>
+                                        </value>
+                                        <next>
+                                          <block type="niryo_one_move_joints" id="h0u(uz}Uk#;51{3*:+n0">
+                                            <field name="JOINTS_1">1.57</field>
+                                            <field name="JOINTS_2">-0.431</field>
+                                            <field name="JOINTS_3">-0.717</field>
+                                            <field name="JOINTS_4">0.009000000000000001</field>
+                                            <field name="JOINTS_5">1.209</field>
+                                            <field name="JOINTS_6">-0.076</field>
+                                            <next>
+                                              <block type="niryo_one_move_joints" id="?dyU~iAN.fwM4q:/-/#,">
+                                                <field name="JOINTS_1">0</field>
+                                                <field name="JOINTS_2">-0.001</field>
+                                                <field name="JOINTS_3">-1.345</field>
+                                                <field name="JOINTS_4">0.018000000000000002</field>
+                                                <field name="JOINTS_5">0.005</field>
+                                                <field name="JOINTS_6">-0.015</field>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
+---END_OF_BLOCKLY_XML---
+---PYTHON_CODE---
+---END_OF_PYTHON_CODE---
