@@ -68,7 +68,7 @@ get-move-30deg
                             <field name="JOINTS_6">-0.076</field>
                             <next>
                               <block type="niryo_one_move_joints" id="t^gYW:DLZe(EY]**+,:B">
-                                <field name="JOINTS_1">1.57</field>
+                                <field name="JOINTS_1">-0.53</field>
                                 <field name="JOINTS_2">-0.431</field>
                                 <field name="JOINTS_3">-0.717</field>
                                 <field name="JOINTS_4">0.009000000000000001</field>
@@ -76,7 +76,7 @@ get-move-30deg
                                 <field name="JOINTS_6">-0.076</field>
                                 <next>
                                   <block type="niryo_one_move_joints" id="2?I0r!=~yYMN]0P]8H^8">
-                                    <field name="JOINTS_1">1.57</field>
+                                    <field name="JOINTS_1">-0.53</field>
                                     <field name="JOINTS_2">-1.118</field>
                                     <field name="JOINTS_3">-0.386</field>
                                     <field name="JOINTS_4">-0.037</field>
@@ -92,7 +92,7 @@ get-move-30deg
                                         </value>
                                         <next>
                                           <block type="niryo_one_move_joints" id="h0u(uz}Uk#;51{3*:+n0">
-                                            <field name="JOINTS_1">1.57</field>
+                                            <field name="JOINTS_1">-0.53</field>
                                             <field name="JOINTS_2">-0.431</field>
                                             <field name="JOINTS_3">-0.717</field>
                                             <field name="JOINTS_4">0.009000000000000001</field>
